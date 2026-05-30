@@ -70,10 +70,10 @@ export const toggleHabitToday = async (req: Request, res: Response) => {
   const alreadyDone = habit.completions.some((c: any) => c.date === today);
 
   if (alreadyDone) {
-    habit.completions = habit.completions.filter((c: any) => c.date !== today);
-  } else {
-    habit.completions.push({ date: today });
-  }
+  habit.completions.pull({ date: today });
+} else {
+  habit.completions.push({ date: today });
+}
 
   await habit.save();
 
