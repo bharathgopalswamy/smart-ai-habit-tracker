@@ -117,6 +117,10 @@ HabitIQ is a full-stack AI-powered habit tracking platform that helps users:
 
 ![Profile](./screenshots/profile.png)
 
+## Habits Page
+
+![Profile](./screenshots/habits.png)
+
 ---
 
 ## 💾 AI Plans Memory

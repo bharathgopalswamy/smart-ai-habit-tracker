@@ -49,12 +49,7 @@ export default function Habits() {
         </div>
 
         <div className="flex gap-3">
-          <button
-            onClick={resetHabits}
-            className="bg-white/10 text-white px-5 py-4 rounded-2xl font-semibold hover:bg-white/20 transition"
-          >
-            Reset Demo
-          </button>
+          
 
           <button
             onClick={() => setShowModal(true)}
