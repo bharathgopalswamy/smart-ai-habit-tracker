@@ -1,10 +1,13 @@
 import { Link, useLocation, useNavigate  } from "react-router-dom";
+
 import {
   LayoutDashboard,
   Brain,
   CalendarCheck,
   Sparkles,
   User,
+  History,
+  LogOut,
 } from "lucide-react";
 import Logo from '../assets/HabitIQ.png'
 
