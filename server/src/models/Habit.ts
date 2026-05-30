@@ -17,26 +17,33 @@ const habitSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
+
     name: {
       type: String,
       required: true,
+      trim: true,
     },
+
     category: {
       type: String,
       default: "Productivity",
     },
+
     frequency: {
       type: String,
       default: "Daily",
     },
+
     difficulty: {
       type: String,
       default: "Easy",
     },
+
     reminderTime: {
       type: String,
       default: "",
     },
+
     completions: [completionSchema],
   },
   { timestamps: true }
