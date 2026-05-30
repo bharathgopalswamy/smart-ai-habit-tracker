@@ -4,7 +4,7 @@ import { useHabits } from "../context/HabitContext";
 import { Plus, Flame, CheckCircle2, Target, Calendar } from "lucide-react";
 
 export default function Habits() {
-  const { habits, addHabit, toggleHabit, deleteHabit, resetHabits } = useHabits();
+  const { habits, addHabit, toggleHabit, deleteHabit } = useHabits();
 
   const [showModal, setShowModal] = useState(false);
   const [form, setForm] = useState({
