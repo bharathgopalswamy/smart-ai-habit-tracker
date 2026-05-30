@@ -5,9 +5,6 @@ import {
   CalendarCheck,
   Sparkles,
   User,
-  Target,
-  LogOut,
-  History
 } from "lucide-react";
 import Logo from '../assets/HabitIQ.png'
 
