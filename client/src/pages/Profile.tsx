@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { Mail, Target, Trophy, Flame, User, Brain } from "lucide-react";
+import { Mail, Target, Trophy, Flame, Brain } from "lucide-react";
 import { useHabits } from "../context/HabitContext";
 
 export default function Profile() {
