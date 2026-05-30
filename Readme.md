@@ -1,87 +1,93 @@
-````md
 # HabitIQ — AI Powered Habit Tracker 🚀
 
 > Build better habits with AI intelligence.
 
 HabitIQ is a full-stack AI-powered habit tracking platform that helps users:
-- Track daily habits
-- Generate AI routines using Gemini AI
-- Analyze productivity and burnout risk
-- Monitor streaks and completion rates
-- Store AI-generated plans permanently
-- Visualize analytics with interactive dashboards
+
+* Track daily habits
+* Generate AI routines using Gemini AI
+* Analyze productivity and burnout risk
+* Monitor streaks and completion rates
+* Store AI-generated plans permanently
+* Visualize analytics with interactive dashboards.
 
 ---
 
 # 🌟 Features
 
 ## ✅ Authentication System
-- JWT Authentication
-- Secure Login/Register
-- Protected Routes
-- MongoDB User Storage
+
+* JWT Authentication
+* Secure Login/Register
+* Protected Routes
+* MongoDB User Storage
 
 ## ✅ Smart Habit Tracking
-- Add/Delete Habits
-- Mark Daily Completion
-- Real-Time Completion Tracking
-- Persistent MongoDB Storage
+
+* Add/Delete Habits
+* Mark Daily Completion
+* Real-Time Completion Tracking
+* Persistent MongoDB Storage
 
 ## ✅ AI Routine Planner
-- Gemini AI Integration
-- Personalized Productivity Plans
-- Fitness / Study / Focus Plans
-- Burnout Warnings
-- Motivation Tips
-- Weekly Structured Routines
+
+* Gemini AI Integration
+* Personalized Productivity Plans
+* Fitness / Study / Focus Plans
+* Burnout Warnings
+* Motivation Tips
+* Weekly Structured Routines
 
 ## ✅ AI Plans History
-- Save Generated Plans
-- Delete Old Plans
-- Revisit Previous AI Sessions
-- Dynamic AI Memory Page
+
+* Save Generated Plans
+* Delete Old Plans
+* Revisit Previous AI Sessions
+* Dynamic AI Memory Page
 
 ## ✅ Smart Dashboard Analytics
-- Focus Score
-- Best Streak
-- Burnout Risk Detection
-- Productivity Insights
-- Completion Percentage
-- Dynamic Progress Tracking
+
+* Focus Score
+* Best Streak
+* Burnout Risk Detection
+* Productivity Insights
+* Completion Percentage
+* Dynamic Progress Tracking
 
 ## ✅ AI Insights Engine
-- Consistency Score
-- Category Distribution
-- Risk Analysis Cards
-- Strongest / Weakest Habit Detection
-- AI Recommendations
+
+* Consistency Score
+* Category Distribution
+* Risk Analysis Cards
+* Strongest / Weakest Habit Detection
+* AI Recommendations
 
 ---
 
 # 🖥️ Tech Stack
 
 ## Frontend
-- React
-- TypeScript
-- TailwindCSS
-- Axios
-- Recharts
-- React Router
-- Lucide Icons
+
+* React
+* TypeScript
+* TailwindCSS
+* Axios
+* Recharts
+* React Router
+* Lucide Icons
 
 ## Backend
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
-- JWT Authentication
-- Gemini AI API
+
+* Node.js
+* Express.js
+* MongoDB Atlas
+* Mongoose
+* JWT Authentication
+* Gemini AI API
 
 ---
 
 # 📸 Application Screenshots
-
----
 
 ## 🏠 Landing Page
 
@@ -126,7 +132,7 @@ HabitIQ is a full-stack AI-powered habit tracking platform that helps users:
 ```bash
 git clone https://github.com/YOUR_USERNAME/habitiq.git
 cd habitiq
-````
+```
 
 ---
 
@@ -148,11 +154,8 @@ npm install
 
 ```env
 PORT=5000
-
 MONGO_URI=YOUR_MONGODB_URI
-
 JWT_SECRET=YOUR_SECRET
-
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
 
@@ -288,12 +291,11 @@ This project demonstrates:
 
 ## Bharath Gopalsamy
 
-* LinkedIn: [www.linkedin.com/in/bharath-gopalswamy](http://www.linkedin.com/in/bharath-gopalswamy)
+* LinkedIn: https://www.linkedin.com/in/bharath-gopalswamy
 * GitHub: https://github.com/bharathgopalswamy09
 
 ---
 
+# ⭐ If you like this project
 
-
-```
-```
+Give it a ⭐ on GitHub and support the project.
