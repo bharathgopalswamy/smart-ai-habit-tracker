@@ -1,4 +1,5 @@
 # HabitIQ — AI Powered Habit Tracker 🚀
+# Live Demo : [habitiq-blond.vercel.app](https://habitiq-blond.vercel.app)
 
 > Build better habits with AI intelligence.
 
