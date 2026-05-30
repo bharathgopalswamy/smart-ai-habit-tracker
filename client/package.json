@@ -4,12 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "ts-node-dev --respawn --transpile-only src/index.ts vite",
+  "dev": "vite",
   "build": "tsc -b && vite build",
-  "start": "node dist/index.js",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
   "dependencies": {
     "axios": "^1.16.1",
     "framer-motion": "^12.40.0",

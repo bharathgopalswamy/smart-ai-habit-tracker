@@ -9,7 +9,7 @@ import {
   LogOut,
   History
 } from "lucide-react";
-
+import Logo from '../assets/HabitIQ.png'
 
 
 const links = [
@@ -39,7 +39,11 @@ function logout() {
     <aside className="w-72 min-h-screen bg-white/5 backdrop-blur-xl border-r border-white/10 p-6 hidden lg:block">
       <div className="flex items-center gap-3 mb-10">
         <div className="h-11 w-11 rounded-2xl bg-cyan-400 flex items-center justify-center text-black">
-          <Target />
+           <img 
+    src={Logo} 
+    alt="HabitIQ Logo" 
+    className="h-full w-full object-cover"
+  />
         </div>
         <div>
           <h1 className="text-xl font-bold">HabitIQ</h1>

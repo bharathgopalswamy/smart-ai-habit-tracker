@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import Habit from "../models/Habit";
+import Habit from "../models/Habit
 
 function todayKey() {
   return new Date().toISOString().split("T")[0];
